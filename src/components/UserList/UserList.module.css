@@ -1,0 +1,11 @@
+.tableHead th {
+    font-weight: 600;
+}
+
+.loadingWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+}

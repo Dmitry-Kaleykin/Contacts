@@ -1,0 +1,34 @@
+.statisticWrapper {
+    margin-top: 6px;
+    padding: 1rem;
+}
+
+.gridHeader>div {
+    color: gray;
+}
+
+.gridBody>div {
+    font-size: 2rem;
+}
+
+.gridDesc {
+    color: gray;
+}
+
+.natHeader {
+    font-weight: 600;
+}
+
+.natContainer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.natItem {
+    width: 200px;
+    margin-right: 1rem;
+}
+
+.natCount {
+    font-size: 1.5rem;
+}

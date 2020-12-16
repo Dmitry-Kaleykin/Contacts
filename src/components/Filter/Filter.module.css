@@ -1,0 +1,34 @@
+.filterWrapper {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.filterWrapper>div {
+    margin-right: 1rem;
+}
+
+.searchContainer {
+    display: flex;
+    flex: 4;
+}
+
+.searchInput {
+    margin-left: 1rem;
+}
+
+.searchIcon {
+    margin: 0 5px;
+}
+
+.selectContainer {
+    flex: 2;
+}
+
+.clearButtonContainer {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}

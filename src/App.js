@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Container from './components/Container/Container';
+import Header from './components/Header/Header';
+import './App.css'
+import Filter from './components/Filter/Filter';
+import UserList from './components/UserList/UserList';
+import { UserContextComponent } from './business/context';
+import Statistic from './components/Statistic/Statistic';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <UserContextComponent>
+      <Container>
+        <Header />
+        <Filter />
+        <UserList />
+        <Statistic />
+      </Container>
+    </UserContextComponent>
   );
 }
 
